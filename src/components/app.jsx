@@ -1,9 +1,13 @@
 import React from 'react';
 
+import Banner from './banner';
+import Intro from './intro';
+
 const App = () => {
   return (
     <div className="app">
-      <p>React + Redux starter</p>
+      <Banner />
+      <Intro />
     </div>
   );
 };
