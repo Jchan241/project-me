@@ -11,6 +11,9 @@ module.exports = {
       template: '!!html-loader!templates/index.html'
     })
   ],
+  devServer: {
+    historyApiFallback: true
+  },
   devtool: 'sourcemap',
   module: {
     rules: [
