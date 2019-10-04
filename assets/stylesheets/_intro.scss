@@ -3,7 +3,7 @@ h2 {
 }
 
 .intro {
-  text-align: center;
+  text-align: left;
   background-color: #e8e8e8;
   padding: 40px 20px;
 }
@@ -15,7 +15,7 @@ h2 {
   max-width: 540px;
   margin: 0 auto;
   p {
-    padding: 1em;
+    padding: 1em 0;
   }
   a {
     color: #5588a3;
@@ -26,8 +26,8 @@ h2 {
 
 @media only screen and (max-width: 1000px) {
   .intro {
-    text-align: center;
+    text-align: left;
     background-color: #eee;
-    padding: 0 auto;
+    padding: 40px 20px;
   }
 }

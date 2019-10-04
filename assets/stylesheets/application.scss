@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,500&display=swap');
+@import "nav";
 @import "banner";
 @import "intro";
 @import "footer";
@@ -30,5 +31,5 @@ h2 {
 }
 
 .content-wrap {
-  padding-bottom: 240px;
+  padding-bottom: 160px;
 }

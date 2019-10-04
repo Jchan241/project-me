@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const Intro = () => {
@@ -8,7 +8,9 @@ const Intro = () => {
       <div className="about">
         <h2>About me</h2>
         <p>
-          I'm a fullstack ruby on rails web developer based in Melbourne, Australia.<br />
+          I'm a fullstack ruby on rails web developer based in Melbourne, Australia.
+          <br />
+          <br />
           My passion is to create the best possible user experience and
           I'm constantly learning new ways to make it better.
         </p>

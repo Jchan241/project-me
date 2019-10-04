@@ -16,9 +16,12 @@ const Footer = () => {
             </div>
             <div className="footer-icon">
               <i className="far fa-envelope"></i>
-              <a href="https://www.instagram.com/j.chan24/"></a>
+              <a href="mailto:johnchan24@gmail.com?Subject=Hi!"></a>
             </div>
           </div>
+          <p>
+            - Let's get in touch! -
+          </p>
         </div>
       </div>
     </div>

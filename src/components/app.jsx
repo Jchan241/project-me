@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+import Nav from './nav-bar';
 import Banner from './banner';
 import Intro from './intro';
 import Footer from './footer';
@@ -19,7 +20,12 @@ const App = () => {
               <Intro />
             </div>
           </Route>
-          <Route path="/about" component={About} />
+          <div className="content-wrap">
+            <Route path="/about">
+              <Nav />
+              <About />
+            </Route>
+          </div>
         </Switch>
         <Footer />
       </div>
