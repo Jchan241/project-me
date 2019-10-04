@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Banner from './banner';
 import Intro from './intro';
@@ -14,8 +14,10 @@ const App = () => {
       <div className="app">
         <Switch>
           <Route path="/" exact>
-            <Banner />
-            <Intro />
+            <div className="content-wrap">
+              <Banner />
+              <Intro />
+            </div>
           </Route>
           <Route path="/about" component={About} />
         </Switch>

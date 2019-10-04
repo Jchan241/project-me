@@ -4,20 +4,23 @@ h2 {
 
 .intro {
   text-align: center;
-  background-color: #eee;
-  height: 30vh;
-  padding: 0 auto;
+  background-color: #e8e8e8;
+  padding: 40px 20px;
 }
 
 .about {
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
-  padding-top: 2em;
   max-width: 540px;
   margin: 0 auto;
   p {
-    padding-top: 2em;
+    padding: 1em;
+  }
+  a {
+    color: #5588a3;
+    text-decoration: none;
+    font-weight: lighter;
   }
 }
 
@@ -25,7 +28,6 @@ h2 {
   .intro {
     text-align: center;
     background-color: #eee;
-    height: 50vh;
     padding: 0 auto;
   }
 }
