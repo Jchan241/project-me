@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
   const style = {
-    backgroundImage: "linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../../assets/images/banner2.jpg')"
+    backgroundImage: "linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://res.cloudinary.com/deplit1df/image/upload/v1570059053/banner_zeiamd.jpg')"
   };
 
   return (
