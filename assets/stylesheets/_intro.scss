@@ -24,6 +24,12 @@ h2 {
   }
 }
 
+.story-link {
+  &:hover {
+    font-weight: bold;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .intro {
     text-align: left;
