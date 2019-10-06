@@ -5,13 +5,13 @@ import Nav from './nav-bar';
 import Banner from './banner';
 import Intro from './intro';
 import Footer from './footer';
-
+import { createHistory as history } from 'history';
 import About from './about';
 
 
 const App = () => {
   return (
-    <Router>
+    <Router histroy={history}>
       <div className="app">
         <Switch>
           <Route path="/" exact>
