@@ -1,11 +1,11 @@
 import React from 'react';
+import { createHistory as history } from 'history';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Nav from './nav-bar';
 import Banner from './banner';
 import Intro from './intro';
 import Footer from './footer';
-import { createHistory as history } from 'history';
 import About from './about';
 
 
