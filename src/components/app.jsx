@@ -1,6 +1,6 @@
 import React from 'react';
 import { createHistory as history } from 'history';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Nav from './nav-bar';
 import Banner from './banner';
@@ -11,7 +11,7 @@ import About from './about';
 
 const App = () => {
   return (
-    <Router histroy={history}>
+    <Router basename="/">
       <div className="app">
         <Switch>
           <Route path="/" exact>
