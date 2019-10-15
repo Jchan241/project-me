@@ -6,6 +6,7 @@ import Banner from './banner';
 import Intro from './intro';
 import Footer from './footer';
 import About from './about';
+import Skills from './skills';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
             <div className="content-wrap">
               <Banner />
               <Intro />
+              <Skills />
             </div>
           </Route>
           <div className="content-wrap">
